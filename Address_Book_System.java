@@ -23,5 +23,23 @@ System.out.println("state");
 String email= sc.nextLine();    
 System.out.println("email");
 	}
+
+void addAPerson() {
+	System.out.print("Enter first and last name: ");
+	Scanner sc = new Scanner (System.in);  
+	String firstName = sc.nextLine();
+	String lastName = sc.next();
+	
+	System.out.print("Enter complete address: ");
+	String address = sc.nextLine();
+	
+	System.out.print("Enter city, state and zip: ");
+	String city = sc.next();
+	String state = sc.next();
+	String zip =sc.next();
+	
+	System.out.println("Enter phone number: ");
+	String phoneNumber = sc.next();
+}
 }
 }
